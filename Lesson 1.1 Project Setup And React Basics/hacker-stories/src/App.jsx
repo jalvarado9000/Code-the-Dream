@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import * as React from 'react';
 
+{/* React command: npm create vite@latest . -- --template react*/}
 {/* git status, git branch, git checkout -b name,  /}
 
 
