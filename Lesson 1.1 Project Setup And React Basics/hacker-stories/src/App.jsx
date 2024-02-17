@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import * as React from 'react';
 
+{/* git status, git branch, git checkout -b name,  /}
+
+
 {/* ARRAY OBJECT IN REACT*/}
 
 const list = [
@@ -53,22 +56,6 @@ function App() {
       <label htmlFor="search">Search: </label>
       <input type="text" id="search" />
       <hr />
-
-{/* HOW TO CREATE A LIST ON REACT*/}
-      <ul>
-        {list.map(function (item) {
-          return (
-            <li key={item.objectID}>
-              <span>
-                <a href={item.url}>{item.title} </a>
-              </span>
-              <span>{item.author} </span>
-              <span>{item.num_comments} </span>
-              <span>{item.points}</span>
-            </li>
-          );
-        })}
-      </ul>
 
 
 
